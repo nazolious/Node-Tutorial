@@ -41,7 +41,7 @@ The module should be in a file called:
     * ```linesInFiles``` which takes folderName as a parameter and returns an list
     * ```linesInFilesAsync``` which takes two parameters ```folderName and callback``` - the callback should return 2 parameters ```err``` & ```files```. Calling it should look like this:
 
-        ```javascript
+        ```
         linesInFilesAsync('/dir/name', function(err, files){
         });
         ```
